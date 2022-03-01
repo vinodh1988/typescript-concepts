@@ -9,6 +9,10 @@ class Student{
         this.sno=sno;
         this.name=name;
     }
+
+    display():void{
+        console.log(this.sno,this.name)
+    }
 }
 
 

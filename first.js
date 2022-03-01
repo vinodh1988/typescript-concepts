@@ -5,5 +5,8 @@ class Student {
         this.sno = sno;
         this.name = name;
     }
+    display() {
+        console.log(this.sno, this.name);
+    }
 }
 var one = new Student(12, "Raj");
