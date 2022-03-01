@@ -12,6 +12,13 @@ function callit(x:(message:string)=>void){
     x("Industry")
 }
 
+function callme(x:(message:string)=>string){
+    console.log("callme called")
+    let fact=x("India")
+    console.log(fact)
+}
+
+callme((x)=>"Fact "+x)
 //callit(23)
 //callit("raj")
 callit(function(x:string){
