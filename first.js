@@ -10,3 +10,4 @@ class Student {
     }
 }
 var one = new Student(12, "Raj");
+
